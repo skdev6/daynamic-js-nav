@@ -1,0 +1,417 @@
+body {
+  background-color: #f6f6f6;
+  font-family: "Roboto", sans-serif;
+}
+
+.min-h-100 {
+  min-height: 700px !important;
+  padding-bottom: 60px;
+}
+
+.board-sec-area {
+  background: #fff;
+  box-shadow: 0 22px 74px -34px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.side-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 680px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.side-nav ul::-webkit-scrollbar {
+  display: none;
+}
+
+.side-nav ul::-ms-scrollbar {
+  display: none;
+}
+
+.side-nav {
+  background: #222f3e;
+  height: 100%;
+  padding-left: 13px;
+  padding-top: 13px;
+}
+
+.side-nav ul li a {
+  display: block;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 15px 34px;
+  border-radius: 50px 0 0 50px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.side-nav ul li a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.side-nav ul li a.active {
+  background-color: #fff;
+  color: #000;
+}
+
+.board-area {
+  min-height: 750px;
+  padding: 13px 17px;
+  padding-right: 40px;
+}
+
+.top-heding {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 13px;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 30px;
+}
+
+.todo-area {
+  width: 500px;
+  padding: 11px;
+  box-shadow: 0 11px 23px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  margin-top: 13px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  /* Heading */
+  /* New Task */
+  /* Task list */
+  /* Completed */
+  /* Edit Task */
+}
+.todo-area h2 {
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+.todo-area ul {
+  margin: 0;
+  padding: 0;
+}
+.todo-area li * {
+  float: left;
+}
+.todo-area li,
+.todo-area h3 {
+  clear: both;
+  list-style: none;
+}
+.todo-area input,
+.todo-area button {
+  outline: none;
+}
+.todo-area button {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  margin: 10px 0 0;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+.todo-area button:hover {
+  color: #333;
+}
+.todo-area h3,
+.todo-area label[for=new-task] {
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 20px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.todo-area input[type=text] {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 45px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
+}
+.todo-area input[type=text]:focus {
+  color: #333;
+}
+.todo-area label[for=new-task] {
+  display: block;
+  margin: 0 0 20px;
+}
+.todo-area input#new-task {
+  float: left;
+  width: 318px;
+}
+.todo-area p > button:hover {
+  color: #0FC57C;
+}
+.todo-area li {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+.todo-area li > input[type=checkbox] {
+  margin: 0 10px;
+  position: relative;
+  top: 15px;
+}
+.todo-area li > label {
+  font-size: 18px;
+  line-height: 40px;
+  width: 237px;
+  padding: 0 0 0 11px;
+}
+.todo-area li > input[type=text] {
+  width: 226px;
+}
+.todo-area li > .delete:hover {
+  color: #CF2323;
+}
+.todo-area #completed-tasks label {
+  text-decoration: line-through;
+  color: #888;
+}
+.todo-area ul li input[type=text] {
+  display: none;
+}
+.todo-area ul li.editMode input[type=text] {
+  display: block;
+}
+.todo-area ul li.editMode label {
+  display: none;
+}
+
+.h-100 {
+  height: 540px !important;
+}
+
+.form-area {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #ff7766;
+}
+.form-area .field-name,
+.form-area .field-email,
+.form-area .field-password,
+.form-area .field-finish {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  width: 400px;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  padding: 10px;
+  box-shadow: 0 6px 11px rgba(0, 0, 0, 0.1);
+}
+.form-area .field-name p,
+.form-area .field-email p,
+.form-area .field-password p,
+.form-area .field-finish p {
+  margin-bottom: 0;
+}
+.form-area .field-name i,
+.form-area .field-email i,
+.form-area .field-password i,
+.form-area .field-finish i {
+  padding: 10px;
+  cursor: pointer;
+}
+.form-area .field-name input,
+.form-area .field-email input,
+.form-area .field-password input,
+.form-area .field-finish input {
+  flex: 1;
+  height: 100%;
+  background-color: transparent;
+  border: transparent;
+  outline: none;
+}
+.form-area .innactive {
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -81%);
+}
+.form-area .active {
+  opacity: 1;
+  pointer-events: all;
+  transform: translate(-50%, -50%);
+}
+.form-area .show-data {
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: ease-in-out 0.25s;
+}
+.form-area .show-data li {
+  display: block;
+  padding: 15px 31px;
+  border-bottom: 1px solid #ddd;
+}
+.form-area .show-data.active {
+  opacity: 1;
+  visibility: visible;
+  bottom: 25px;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(10deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+.form-widget-area {
+  height: 600px;
+  background-color: #2c2c54;
+  position: relative;
+  transition: all 0.25s;
+  overflow: hidden;
+}
+.form-widget-area .form-field-item {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.form-widget-area .form-field-item .form-field {
+  background-color: #fff;
+  padding: 30px;
+  min-width: 500px;
+  text-align: center;
+}
+.form-widget-area .form-field-item .form-field h4 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 13px;
+  margin-bottom: 29px;
+  color: #000;
+}
+.form-widget-area .form-field-item .form-field input {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 15px 20px;
+}
+.form-widget-area .form-field-item .form-field .submit-btn {
+  padding: 16px 37px;
+  border: 1px solid #30336b;
+  color: #fff;
+  margin-top: 26px;
+  background-color: #30336b;
+  transition: 0.2s;
+  border-radius: 1px;
+}
+.form-widget-area .form-field-item .form-field .submit-btn:hover {
+  background-color: #B33771;
+  border: 1px solid #B33771;
+}
+.form-widget-area .form-field-item .form-field.innactive {
+  display: none;
+}
+.form-widget-area .form-field-item .form-field.active {
+  display: block;
+}
+.form-widget-area .form-field-item .show-value {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.form-widget-area .form-field-item .show-value li {
+  display: block;
+  padding: 15px 31px;
+  border-bottom: 1px solid #eee;
+}
+
+.todo-2-area {
+  height: 100%;
+  width: 100%;
+  background-color: var(--teal);
+  padding-top: 120px;
+  min-height: 700px !important;
+  padding-bottom: 60px;
+}
+.todo-2-area form {
+  display: inline-block;
+  position: relative;
+}
+.todo-2-area form button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--secondary);
+  border: transparent;
+  color: #fff;
+  padding: 5px;
+}
+.todo-2-area form input {
+  padding: 15px 10px;
+  border: transparent;
+  width: 440px;
+}
+.todo-2-area .todo-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.todo-2-area .todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  margin-top: 20px;
+}
+.todo-2-area .todo li {
+  flex: 1;
+  padding: 10px;
+}
+.todo-2-area .todo .complate-button, .todo-2-area .todo .trash-button {
+  background: var(--orange);
+  color: #fff;
+  border: transparent;
+  height: 100%;
+  padding: 13px 16px;
+  transition: cubic-bezier(0.46, 0.03, 0.52, 0.96) 0.15s;
+}
+.todo-2-area .todo .trash-button {
+  background-color: var(--gray);
+}
+.todo-2-area .todo .trash-button:hover {
+  background-color: var(--danger);
+}
+.todo-2-area .todo .complate-button:hover {
+  background-color: var(--indigo);
+}
+
+/*# sourceMappingURL=style.css.map */

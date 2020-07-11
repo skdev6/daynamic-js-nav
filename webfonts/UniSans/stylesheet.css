@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Segoe Pro SemiLight';
+    src: url('SegoePro-SemiLight.woff2') format('woff2'),
+        url('SegoePro-SemiLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe Pro';
+    src: url('SegoePro-LightItalic.woff2') format('woff2'),
+        url('SegoePro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Segoe Pro Cond';
+    src: url('SegoeProCond-BoldItalic.woff2') format('woff2'),
+        url('SegoeProCond-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Segoe Pro';
+    src: url('SegoePro-Italic.woff2') format('woff2'),
+        url('SegoePro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Segoe Pro Display';
+    src: url('SegoeProDisplay-Light.woff2') format('woff2'),
+        url('SegoeProDisplay-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe Pro';
+    src: url('SegoePro-BoldItalic.woff2') format('woff2'),
+        url('SegoePro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Segoe Pro';
+    src: url('SegoePro-Semibold.woff2') format('woff2'),
+        url('SegoePro-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe Pro Display SemiLight';
+    src: url('SegoeProDisplay-SemiLight.woff2') format('woff2'),
+        url('SegoeProDisplay-SemiLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe Pro';
+    src: url('SegoeProBlack-Italic.woff2') format('woff2'),
+        url('SegoeProBlack-Italic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Segoe Pro Cond';
+    src: url('SegoeProCond-Italic.woff2') format('woff2'),
+        url('SegoeProCond-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Segoe Pro';
+    src: url('SegoePro-Light.woff2') format('woff2'),
+        url('SegoePro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe Pro';
+    src: url('SegoeProBlack.woff2') format('woff2'),
+        url('SegoeProBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe Pro';
+    src: url('SegoePro.woff2') format('woff2'),
+        url('SegoePro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe Pro Display';
+    src: url('SegoeProDisplay-Semibold.woff2') format('woff2'),
+        url('SegoeProDisplay-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe Pro Display';
+    src: url('SegoeProDisplay-Bold.woff2') format('woff2'),
+        url('SegoeProDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe Pro Cond';
+    src: url('SegoeProCond-Bold.woff2') format('woff2'),
+        url('SegoeProCond-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe Pro';
+    src: url('SegoePro-Bold.woff2') format('woff2'),
+        url('SegoePro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe Pro';
+    src: url('SegoePro-SemiboldItalic.woff2') format('woff2'),
+        url('SegoePro-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Segoe Pro Display';
+    src: url('SegoeProDisplay.woff2') format('woff2'),
+        url('SegoeProDisplay.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe Pro SemiLight';
+    src: url('SegoePro-SemiLightItalic.woff2') format('woff2'),
+        url('SegoePro-SemiLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>I Learn Coding</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/fontawesome-all.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container-fluid mt-3 mb-3">
+		<div class="board-sec-area">
+			<div class="row">
+				<div class="col-lg-2">
+					<div class="side-nav">
+						<ul id="NavArea"></ul>
+					</div>
+				</div>
+				<div class="col-lg-10">
+					<div class="board-area">
+						<h2 class="top-heding">I Learning To do apps</h2>
+						<div class="container">
+							<div class="todo-area">
+								<h2>TODO LIST</h2>
+								<h3>Add Item</h3>
+								<p>
+									<input id="new-task" type="text"><button>Add</button>
+								</p>
+						
+								<h3>Todo</h3>
+								<ul id="incomplete-tasks">
+									<li><input type="checkbox"><label>Pay Bills</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+									<li><input type="checkbox"><label>Go Shopping</label><input type="text" value="Go Shopping"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+								</ul>
+						
+								<h3>Completed</h3>
+								<ul id="completed-tasks">
+									<li><input type="checkbox" checked><label>See the Doctor</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="header.js"></script>
+</body>
+</html>
